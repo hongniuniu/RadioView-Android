@@ -3,4 +3,4 @@
 
 ### Screenshots
 
-<img src="screenshots/radion-view.gif"/>
+<img src="screenshots/radion-view.gif" width='320' height='540'/>
