@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义单选按钮控件-->
+    <declare-styleable name="RadionView">
+
+        <attr name="txt" format="string"/>
+        <attr name="txt_color" format="color"/>
+        <attr name="txt_distance" format="dimension"/>
+        <attr name="txt_size" format="dimension"/>
+        <attr name="out_raduis" format="dimension"/>
+        <attr name="inner_raduis" format="dimension"/>
+        <attr name="out_color" format="color"/>
+        <attr name="inner_color" format="color"/>
+        <attr name="out_strokeW" format="dimension"/>
+        <attr name="is_sel" format="boolean"/>
+        <attr name="gravity" >
+            <flag name="left" value="0x03"/>
+            <flag name="center" value="0x04" />
+            <flag name="right" value="0x05" />
+        </attr>
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff00bcd4"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.faith.ctv.radioview.MainActivity">
+
+    <Button
+        android:id="@+id/id_left"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="#fc3c40"
+        android:text="左对齐"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/id_center"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="#fc3c40"
+        android:text="居中对齐"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/id_right"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:background="#fc3c40"
+        android:text="右对齐"
+        android:textSize="16sp"/>
+
+    <com.faith.ctv.radioview.RadioView
+        android:id="@+id/id_radioV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_left"
+        android:layout_marginTop="32dp"
+        rv:gravity="left"
+        rv:inner_raduis="5dp"
+        rv:is_sel="true"
+        rv:out_color="#F6574F"
+        rv:out_raduis="8dp"
+        rv:out_strokeW="2dp"
+        rv:txt="对齐方式：左对齐"
+        rv:txt_color="#ffffff"
+        rv:txt_distance="8dp"
+        rv:txt_size="14sp"/>
+
+</RelativeLayout>
